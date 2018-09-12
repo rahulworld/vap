@@ -1,7 +1,11 @@
-# VAPTool
+# vap
 ![python3.x](https://img.shields.io/badge/python-3.x-brightgreen.svg)
 
-Create 3d visualizations of a city in real-time and analysing data to better living world.
+> Create 3d visualizations of a city in real-time and analysing data to better living world.
+
+<!-- [Implemented OAT methods](https://github.com/rahulworld/Data-analysis/blob/master/examples/README.md) -->
+
+![3D Visualisation](screenshots/mainpage.png)
 
 Create 3d visualizations of a city in real-time With our 3d visualisation tools you can add 3d models to world wind web and edit their size, angles of heading, pitch, roll and position in real-time. For diaster response, economic planning and controlling through visualisation and mapping. The GDP of the world is growing at a rate of around 3%. And the population of earth is growing at a rate of 1.2%. These rates means that the world needs more cities to house the people who are lifted out of poverty. Moreover in developing world rural population is migrating to urban centres further escalating the need of housing. For these reasons we need to be prepared for the environmental impact these the urban centres will bring to the earth. For this we have developed a 3d visualisation tool where you can visualise the existing cities, neighbourhoods. With World Wind Web we want government and planners to be equipped with a tool where they can easily go through multiple plans.
 Our tools can also find empty spaces in cities which are perfectly suitable to plant trees.
@@ -28,12 +32,12 @@ The World Wind Map:- Use scroll to zoom in or zoom out. To move the map around, 
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/rahulworld/vap_tool.git
+git clone https://github.com/rahulworld/vap.git
 ```
 
 ### 2. Setup Virtual Environment
 ```
-cd vap_tool
+cd vap
 virtualenv venv
 source venv/bin/activate
 ```
@@ -55,7 +59,7 @@ And finally you will be able to save these plans, come back, view them and edit 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/rahulworld/vap_tool. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rahulworld/vap. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 To submit a pull request - 
 

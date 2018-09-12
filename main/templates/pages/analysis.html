@@ -1,0 +1,50 @@
+{% extends 'layouts/main.html' %}
+{% block title %}About{% endblock %}
+{% block content %}
+
+<div class="container text-center" style="padding: 30px;" >
+            <h3> Work In Progress </h3> 
+</div>
+
+<div style="margin-top: 100px; margin-left: 50px;">
+  <!-- Example row of columns -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <input type="button" value="TEST">
+        <select id="filelist">
+        </select>
+      </div>
+      <div class="col-sm">
+          <form class="md-form">
+              <div class="file-field">
+                  <div class="btn btn-primary btn-sm float-left">
+                      <span>Choose file</span>
+                      <input type="file">
+                  </div>
+                  <div class="file-path-wrapper">
+                     <input class="file-path validate" type="text" placeholder="Upload your file">
+                  </div>
+              </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>
+  <div id="graphdiv4" style="width:1000px; height:320px; margin-top: 100px; margin-bottom: 100px;">
+    
+  </div>
+  <script type="text/javascript">
+    g4 = new Dygraph(
+      document.getElementById("graphdiv4"),
+      "/static/csv/twonormals.csv",
+      {
+        rollPeriod: 7,
+        showRoller: true,
+        errorBars: true,
+        valueRange: [50,125]
+      }
+    );
+  </script>
+
+{% endblock %}

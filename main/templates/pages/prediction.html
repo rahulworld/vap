@@ -1,0 +1,44 @@
+{% extends 'layouts/main.html' %}
+{% block title %}visualisation{% endblock %}
+{% block content %}
+
+
+
+      <div class="container text-center" style="padding: 30px;" >
+            <h3> Work In Progress </h3> 
+</div>
+
+      <div class="container">
+        <!-- Example row of columns -->
+        <div id="graphdiv4" style="width:480px; height:320px;"></div>
+        <script type="text/javascript">
+          g4 = new Dygraph(
+            document.getElementById("graphdiv4"),
+            "/static/js/twonormals.csv",
+            {
+              rollPeriod: 7,
+              showRoller: true,
+              errorBars: true,
+              valueRange: [50,125]
+            }
+          );
+        </script>
+
+        <!-- <div id="graphdiv"></div>
+        <script type="text/javascript">
+          g = new Dygraph(
+
+            // containing div
+            document.getElementById("graphdiv"),
+
+            // CSV or path to a CSV file.
+            "Date,Temperature\n" +
+            "2008-05-07,75\n" +
+            "2008-05-08,70\n" +
+            "2008-05-09,80\n"
+
+          );
+        </script> -->
+      </div> <!-- /container -->
+
+{% endblock %}

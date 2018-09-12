@@ -5,7 +5,7 @@
 
 <!-- [Implemented OAT methods](https://github.com/rahulworld/Data-analysis/blob/master/examples/README.md) -->
 
-![3D Visualisation](screenshots/mainpage.png)
+![3D Visualisation](docs/screeenshots/mainpage.png)
 
 Create 3d visualizations of a city in real-time With our 3d visualisation tools you can add 3d models to world wind web and edit their size, angles of heading, pitch, roll and position in real-time. For diaster response, economic planning and controlling through visualisation and mapping. The GDP of the world is growing at a rate of around 3%. And the population of earth is growing at a rate of 1.2%. These rates means that the world needs more cities to house the people who are lifted out of poverty. Moreover in developing world rural population is migrating to urban centres further escalating the need of housing. For these reasons we need to be prepared for the environmental impact these the urban centres will bring to the earth. For this we have developed a 3d visualisation tool where you can visualise the existing cities, neighbourhoods. With World Wind Web we want government and planners to be equipped with a tool where they can easily go through multiple plans.
 Our tools can also find empty spaces in cities which are perfectly suitable to plant trees.

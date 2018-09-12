@@ -28,12 +28,12 @@ The World Wind Map:- Use scroll to zoom in or zoom out. To move the map around, 
 
 ### 1. Clone the Repository
 ```
-git clone https://github.com/defineapoorv/VAPTool.git
+git clone https://github.com/rahulworld/vap_tool.git
 ```
 
 ### 2. Setup Virtual Environment
 ```
-cd VAPTool
+cd vap_tool
 virtualenv venv
 source venv/bin/activate
 ```
@@ -55,7 +55,7 @@ And finally you will be able to save these plans, come back, view them and edit 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/defineapoorv/VAPTool. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rahulworld/vap_tool. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 To submit a pull request - 
 
